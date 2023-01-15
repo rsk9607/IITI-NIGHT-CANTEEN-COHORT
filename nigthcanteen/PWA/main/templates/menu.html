@@ -1,11 +1,9 @@
-<html>
-    <head>
-        <title>
-            menu
-        </title>
-    </head>
-<body>
-    <h1>menu</h1>
+{% extends 'base.html' %}
+
+{% block title%}Menu {% endblock %}
+
+{% block content %}
+<h1>menu</h1>
     <ul>
         {% for x in my_menu%}
         <li>{{x.item}} {{x.price}}</li>
@@ -13,6 +11,4 @@
     </ul>
     <hr>
     <p>back to <a href="/">Home</a></p>
-</body>
-
-</html>
+    {% endblock content %}
