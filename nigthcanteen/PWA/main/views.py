@@ -5,8 +5,8 @@ from .models import menu
 
 # Create your views here.
 
-def night_canteen(request):
-    template = loader.get_template('night_canteen.html')
+def main(request):
+    template = loader.get_template('main.html')
     return HttpResponse(template.render())
 
 def Menu(request):
