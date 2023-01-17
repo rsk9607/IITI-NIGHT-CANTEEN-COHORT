@@ -1,0 +1,33 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>
+            start-up
+        </title>
+        <link rel="stylesheet" href="{% static '/bootstrap-5.2.3-dist/css/bootstrap.min.css'%}">
+        <link rel="stylesheet" href="{% static 'startup.css' %}">
+        <link rel="icon" href="{% static 'food order.png' %}">
+    </head>
+    <body>
+        <div class="container-fluid App-main">
+            <div class="container App-name">
+                <div class="logo">
+                    <center><img src="{% static 'food order opc.png' %}"></center>
+                </div>
+                <div class="name">
+                    <h1>COHORT</h1>
+                </div>
+                <div class="button-name">
+                    <a href="login/"><button type="button" class="btn btn-warning">Student</button></a>
+                    <a href="admin/"><button type="button" class="btn btn-warning">Owner</button></a>
+                </div>
+            </div>
+        </div>
+
+
+
+
+

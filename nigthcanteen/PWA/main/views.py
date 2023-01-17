@@ -5,8 +5,8 @@ from .models import menu
 
 # Create your views here.
 
-def main(request):
-    template = loader.get_template('main.html')
+def startup(request):
+    template = loader.get_template('startup.html')
     return HttpResponse(template.render())
 
 def Menu(request):
