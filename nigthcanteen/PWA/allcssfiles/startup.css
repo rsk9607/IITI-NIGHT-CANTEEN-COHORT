@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,700&display=swap');
+
+.App-main{
+    background-image: url("bundo-kim-Tf3ZxxXAXbs-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.App-name{
+    display: block;
+    justify-content: center;
+    padding: 100px 100px 300px;
+}
+
+.logo img{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.name h1{
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    color: aliceblue;
+    font-family: 'Roboto Mono', monospace;
+    padding: 25px;
+}
+
+.button-name{
+    display: flex;
+    justify-content:space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
